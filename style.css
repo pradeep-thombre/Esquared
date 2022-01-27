@@ -1,0 +1,421 @@
+
+/* ---------------------------root/body styles ------------------------------- */
+*{
+    box-sizing: border-box;
+    padding: 0%;
+    margin: 0%;
+}
+
+body
+{
+    color: #000;
+    overflow-x: hidden;
+    height: 100%;
+    background-repeat: no-repeat
+}
+
+
+/* --------------------------header ----------------------------------- */
+.back-img{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    left: 0;
+    top: 0;
+    z-index: -1;
+}
+header{
+    min-width: 100%;
+    min-height: 80vh;
+    background:linear-gradient( to right top, rgba(2, 121, 103, 0.829) 30%, rgba(252, 245, 245, 0) 60%,rgba(252, 38, 27, 0.712) 70%);
+}
+
+.admis{
+    font-size: 60px;
+    text-shadow: -1px 0 rgb(255, 255, 255), 0 1px rgb(255, 255, 255), 1px 0 rgb(255, 255, 255), 0 -1px rgb(250, 250, 250);
+    color: rgb(37,139,129);
+    font-weight: 900;
+}
+.no1{
+    display: block;
+    height: 150px;
+    width: 50%;
+    margin-top: 60px;
+    padding-left: 50PX;
+}
+
+.mscbf{
+    font-size: 50px;
+    margin-right: 20PX;
+    font-weight: 900;
+    background-color: rgb(255,205,0);
+    width:max-content;
+    padding: 5px 20px;
+} 
+
+.mainlogo{
+    margin-top: 20px;
+    width: 180px;
+    height: 150px;
+    margin-left: 4%;
+}
+
+
+.heading{
+    color: rgb(168,32,37);
+    margin: auto;
+}
+
+.underline{
+    min-height: 5px;
+    width: 100px;
+    background-color: rgb(29,171,149);
+    margin: auto;
+    margin-top: 10px;
+}
+
+/* -----------------------------------about program div -------------------------------- */
+.progrm{
+    padding: 30px 15%;
+    text-align: center;
+    align-items: center;
+    background-color: rgb(243,243,243);
+}
+
+
+.about-Content{
+    margin-top: 20px;
+    padding: 30px;
+    font-size: 20px;
+}
+
+
+/* -----------------------------------why program div -------------------------------- */
+.whydiv{
+    padding: 30px 5%;
+    text-align: center;
+    align-items: center;
+    background-color: #fff;
+}
+
+.owl-carousel .owl-nav button.owl-next, .owl-carousel .owl-nav button.owl-prev, .owl-carousel button.owl-dot {
+    font-size: 50px;
+    color: blueviolet;
+}
+
+
+/* -----------------------------------International collabrations div -------------------------------- */
+
+/* video  */
+.video-div{
+    display: flex;
+    flex-direction: row;
+    padding: 0%;
+    margin: 0%;
+    overflow: hidden;
+    height: 70vh;
+    background-color: rgb(243,243,243);
+}
+.videoBack{
+    height: 250px;
+    width: 45%;
+    background-color: rgb(29,171,149);
+}
+
+
+/* iframe for youtube video  */
+.iframe{
+    width:95%; 
+    height:215%;
+    padding: 100px 50px;
+}
+
+
+/* company div  */
+.companies{
+    display: flex;
+    padding-left: 25px;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    overflow: hidden;
+}
+
+
+/* all logos  */
+.company-Logo{
+    border: #BDBDBD 1px solid;
+    margin: 15px 20px 0 0;
+    width: 150px;
+    height: 70px;
+}
+
+.company-Logo img{
+    height: 100%;
+    width: 100%;
+}
+
+
+
+
+
+/* -----------------------------------Cross Square div -------------------------------- */
+.cross{
+    padding: 30px 12%;
+    text-align: center;
+    align-items: center;
+    height: 50vh;
+    margin-bottom: 200px;
+    background:linear-gradient( rgba(255, 120, 120, 0.5), rgba(211, 0, 0, 0.5)), url('https://res.cloudinary.com/highereducation/image/upload/v1533591754/TheBestColleges.org/study-notebooks.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: #fff;
+}
+
+.flip-div{
+    display: flex;
+    justify-content: space-between;
+    padding: 180px 0 0 180px;
+    align-items: center;
+}
+
+.outer{
+    -moz-transform: translateX(-50%) translateY(-50%) rotate(-45deg);
+    -webkit-transform: translateX(-50%) translateY(-50%) rotate(-45deg);
+    transform:  translateX(-50%) translateY(-50%) rotate(-45deg);
+    width:200px;
+    height:200px;
+    background-color: #fff;
+    position:relative;
+    display:inline-block;
+    margin-left: 50px;
+    border-radius: 10px;
+    border: 1px solid gainsboro;
+    box-shadow: 0 0px 5px 2px rgb(0 0 0 / 10%);
+
+}
+.inner{
+    color:#FFF;
+    -moz-transform: translateX(-50%) translateY(-50%) rotate(45deg);
+    -webkit-transform: translateX(-50%) translateY(-50%) rotate(45deg);
+    transform:  translateX(-50%) translateY(-50%) rotate(45deg);
+    display: inline-block;
+    position: relative;
+    left: 50%;
+    top: 50%;
+    color: #000;
+}
+
+
+
+/* -----------------------------------Centres div -------------------------------- */
+.centres{
+    padding: 30px 12%;
+    text-align: center;
+    align-items: center;
+    min-height: 80vh;
+    background:linear-gradient( rgba(255, 25, 25, 0.753), rgba(247, 43, 43, 0.842)), url('https://d15jblxlftkuys.cloudfront.net/wp-content/uploads/teach-students-dna.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: #fff;
+}
+
+
+.centres-wrapper{
+    width: 200px;
+    height: 150px;
+    padding: 20px;
+    border-radius: 15px;
+    border: 1px solid rgb(95, 94, 94);
+    background: rgba(118,20,21,.55);
+
+}
+
+#show-container {
+    margin: 80px auto;
+    position: relative;
+    padding: 10px;
+    margin-top: 80px;
+}
+  
+#show-container > div {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    right: 10px;
+    bottom: 10px;
+}
+
+/* ------------------------------------- books div --------------------------- */
+.books-div{
+    display: flex;
+    flex-direction: row;
+    background-color: rgb(243,243,243);
+}
+
+
+.books-div img{
+    width: 30%;
+}
+
+
+h3{
+    margin-top: 15px;
+}
+
+li{
+    margin-top: 15px;
+    font-size: large;
+}
+
+.why-image{
+    height: 300px;
+}
+
+ /* ------------------------------------download .brochure ------------------------ */
+.brochure{
+    padding: 20px;
+    background-color: rgb(255,205,0);
+    border-radius: 10px;
+    margin: 50px 10%;
+    display: flex;
+    justify-content: space-between;
+}
+.brochure-download{
+    text-decoration: none;
+    color: #fff;
+    font-size: 25px;
+    font-weight: bold;
+}
+.download{
+    padding: 5px 10px;
+    background-color: rgb(148,32,32);
+}
+
+
+ /* -------------------------------features of company ----------------------------- */
+.features{
+    height: 200px;
+    width: 200px;
+    padding: 20px 20px 10px 20px;
+    margin: 15px;
+    text-align: center;
+    border-radius: 10px;
+    box-shadow: 0 0px 5px 2px rgb(0 0 0 / 10%);
+}
+
+.features h4{
+    font-size: 30px;
+}
+
+
+
+/* -----------------------eligiblity and admission flip div ------------------------------------ */
+.tabflip{
+    display: flex;
+    flex-direction: row;
+    padding: 5% ;
+    margin: 0%;
+    width: 100%;
+    background-color: rgb(29,171,149);
+}
+.ul-style{
+    list-style: none;
+}
+
+.tabflip >ul li{
+    border-bottom: 1px solid black;
+    border-radius: 2px;
+    padding: 17px;
+    margin: 0px;
+    width: 190px;
+    background-color: #BDBDBD;
+}
+
+.tabflip a{
+    text-decoration: none;
+    color: #000;
+    width: 100%;
+}
+
+.tabflip .content{
+    background-color: #fff;
+    /* padding: 30px; */
+    width: 85%;
+    min-height: 150px;
+    display: flex;
+    justify-content: left;
+}
+
+i{
+    font-size: 30px;
+    margin: 10px;
+    color: red;
+    display: inline-block;
+}
+
+.tabflip .content p{
+    font-size: large;
+}
+
+
+.content img{
+    display: block;
+}
+
+
+
+/* -------------------------------footer style div ------------------------------------- */
+
+footer{
+    text-align: center;
+}
+
+
+
+/* ---------------------------------------------company logo slider -------------------------- */
+.card {
+    box-shadow: 0px 4px 8px 0px #BDBDBD
+}
+
+
+.cards {
+    position: relative;
+    height: 80px;
+    min-width: 0;
+    word-wrap: break-word;
+    background-color: #fff;
+    background-clip: border-box;
+    border: 1px solid #d2d2dc;
+    border-radius: 11px;
+    -webkit-box-shadow: 0px 0px 5px 0px rgb(249, 249, 250);
+    -moz-box-shadow: 0px 0px 5px 0px rgba(212, 182, 212, 1);
+    box-shadow: 0px 0px 5px 0px rgb(161, 163, 164);
+    overflow: hidden;
+}
+
+.cards .card-body {
+    padding:  5px
+}
+
+.card-body {
+    flex: 1 1 auto;
+    padding: 1.25rem;
+    flex-direction: column;
+    display: flex;
+}
+
+
+
+.logo {
+    height: 90%;
+    width: 90%;
+}
+
+.items {
+    margin: 0px auto;
+    margin-top: 50px
+}
+
+.slick-slide {
+    margin: 10px
+}
