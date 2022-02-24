@@ -245,6 +245,36 @@ header{
     bottom: 10px;
 }
 
+#show-container img{
+    height: 250px;
+}
+#show-container .img-div{
+    width: 250px; 
+    height: 50px;
+}
+#show-container .cont-div{
+    margin-left: 220px;
+    padding: 20px; 
+    padding-left: 180px; 
+    background-color: white; 
+    height: 300px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.4); 
+    color: black;
+}
+
+.cont-div h3{
+    font-size: 30px; 
+    color: red;
+}
+.cont-div h4{
+    font-size: 20px; 
+    margin-top: 10px;
+}
+.cont-div p{
+    font-size: 20px; 
+    margin-top: 10px;
+}
+
 /* ------------------------------------- books div --------------------------- */
 .books-div{
     display: flex;
@@ -306,7 +336,9 @@ li{
 .features h4{
     font-size: 30px;
 }
-
+.progrm .heading{
+    margin-top: 250px;
+}
 
 
 /* -----------------------eligiblity and admission flip div ------------------------------------ */
@@ -419,3 +451,496 @@ footer{
 .slick-slide {
     margin: 10px
 }
+
+
+
+@media only screen and (max-width:800px){
+    /* --------------------------header ----------------------------------- */
+    .back-img{
+        height: 40vh;
+    } 
+    header{
+        min-height: 40vh;
+    }
+
+    .admis{
+        font-size: 20px;
+        font-weight: 600;
+    }
+    .no1{
+        height: 90px;
+        width: 40%;
+        margin-top: 20px;
+        padding-left: 15PX;
+    }
+
+    .mscbf{
+        font-size: 20px;
+        font-weight: 600;
+    } 
+
+    .mainlogo{
+        margin-top: 20px;
+        width: 100px;
+        height: 70px;
+        margin-left: 4%;
+    }
+
+
+    .heading{
+        font-size: 22px;
+    }
+
+
+    /* -----------------------------------about program div -------------------------------- */
+    .progrm{
+        padding: 20px;
+    }
+
+    .about-Content{
+        margin-top: 10px;
+        padding: 20px;
+        font-size: 15px;
+    }
+    
+    /* -----------------------------------why program div -------------------------------- */
+
+    .owl-carousel .item{
+        width: 400px;
+        margin: auto;
+        border: 2px solid rgb(29,171,149);
+        border-radius: 30px;
+        padding: 20px;
+
+    }
+    .owl-carousel .owl-item img {
+        height: 170px;
+    }
+
+
+    /* -----------------------------------International collabrations div -------------------------------- */
+
+    /* video  */
+    .video-div{
+        height: 50vh;
+    }
+
+    .videoBack{
+        height: 160px;
+        width: 45%;
+    }
+
+
+    /* iframe for youtube video  */
+    .iframe{
+        width:95%; 
+        height:180%;
+        padding: 50px 30px;
+    }
+
+
+    /* company div  */
+    .companies{
+        padding-left: 10px;
+    }
+
+
+    /* all logos  */
+    .company-Logo{
+        margin: 5px;
+        width: 70px;
+        height: 40px;
+    }
+
+    
+
+    /* -----------------------------------Cross Square div -------------------------------- */
+    .cross{
+        padding: 15px 6%;
+        height: 40vh;
+        margin-bottom: 150px;
+    }
+
+    .flip-div{
+        display: flex;
+        justify-content: space-between;
+        padding: 150px 0 0 80px;
+        align-items: center;
+    }
+
+    .outer{
+        width:130px;
+        height:130px;
+        margin-left: 10px;
+        font-size: 13px;
+    }
+
+        
+    /* ------------------------------------- books div --------------------------- */
+
+    .books-div img{
+        width: 40%;
+    }
+
+
+    h3{
+        font-size: 17px;
+    }
+
+    li{
+        font-size: 15px;
+    }
+
+
+    /* ------------------------------------download .brochure ------------------------ */
+    .brochure{
+        margin: 30px 10%;
+    }
+
+    .brochure-download{
+        font-size: 15px;
+    }
+    .brochure h1{
+        font-size: 21px;
+    }
+    .download{
+        background-color: rgb(148,32,32);
+    }
+
+    /* -----------------------------------Centres div -------------------------------- */
+    .centres{
+        padding: 15px;
+        min-height: 60vh;
+    }
+
+    .centres-wrapper{
+        width: 130px;
+        height: 130px;
+        padding: 10px;
+    }
+    .centres-wrapper img{
+        height: 60%;
+        width: 80%;
+    }
+    .centres-wrapper p{ 
+        font-size: 12px;
+    }
+
+    #show-container {
+        margin: 30px auto;
+        padding: 5px;
+        margin-top: 15px;
+    }
+
+        
+    #show-container img{
+        height: 150px;
+    }
+    #show-container .img-div{
+        width: 160px; 
+    }
+    #show-container .cont-div{
+        margin-left: 120px;
+        margin-top: 30px;
+        padding: 10px; 
+        padding-left: 20px; 
+        height: 250px;
+    }
+
+    .cont-div h4{
+        font-size: 20px; 
+        color: red;
+    }
+    .cont-div h5{
+        font-size: 15px; 
+        margin-top: 10px;
+    }
+    .cont-div p{
+        font-size: 14px; 
+        margin-top: 10px;
+    }
+
+    
+    /* ---------------------------------------------company logo slider -------------------------- */
+
+    .cards {
+        height: 60px;
+        width: 80px;
+    }
+
+     /* -------------------------------features of company ----------------------------- */
+    .features{
+        height: 150px;
+        width: 140px;
+        padding: 5px;
+        margin: 5px;
+    }
+
+    .features h4{
+        font-size: 15px;
+    }
+    .features p{
+        font-size: 12px;
+    }
+
+    .content .one{
+        font-size: 12px;
+    }
+    .footer h3 {
+        font-size: 14px;
+        font-weight: 300;
+    }
+    .footer p{
+        font-size: 12px;
+    }
+}
+
+
+
+
+@media only screen and (max-width:500px){
+    /* --------------------------header ----------------------------------- */
+    .admis{
+        font-weight: 100;
+    }
+    .no1{
+        height: 70px;
+        width: 30%;
+        padding-left: 5PX;
+        margin-top: 50px;
+    }
+
+    .mscbf{
+        font-size: 15px;
+        font-weight: 100;
+        padding: 5px;
+        margin-right: 5px;
+    } 
+
+    .mainlogo{
+        margin-top: 20px;
+        width: 80px;
+    }
+
+
+    .heading{
+        font-size: 18px;
+    }
+
+    .underline {
+        min-height: 2px;
+        margin-top: 5px;
+    }
+
+    /* -----------------------------------about program div -------------------------------- */
+    .progrm{
+        padding: 10px;
+    }
+
+    .about-Content{
+        margin-top: 5px;
+        font-size: 13px;
+    }
+    
+    /* -----------------------------------why program div -------------------------------- */
+
+    .owl-carousel .item{
+        width: 250px;
+        border-radius: 15px;
+        padding: 20px;
+    }
+    .owl-carousel .owl-item img {
+        height: 170px;
+    }
+
+
+    /* -----------------------------------International collabrations div -------------------------------- */
+
+    /* video  */
+    .video-div{
+        height: 40vh;
+    }
+
+    .videoBack{
+        height: 160px;
+        width: 30%;
+    }
+
+
+    /* iframe for youtube video  */
+    .iframe{
+        width:85%; 
+        height:150%;
+        padding: 5px;
+    }
+
+
+    /* company div  */
+    .companies{
+        padding-left: 5px;
+    }
+
+
+    /* all logos  */
+    .company-Logo{
+        margin: 0px;
+        width: 50px;
+        height: 30px;
+    }
+
+
+    /* -----------------------------------Cross Square div -------------------------------- */
+    .cross{
+        padding: 5px;
+        height: 27vh;
+        margin-bottom: 120px;
+    }
+
+    .flip-div{
+        display: flex;
+        justify-content: space-between;
+        padding: 100px 0 0 80px;
+        align-items: center;
+    }
+
+    .outer{
+        width:100px;
+        height:100px;
+        margin-left: 5px;
+        font-size: 10px;
+    }
+
+        
+    /* ------------------------------------- books div --------------------------- */
+
+    .books-div img{
+        width: 40%;
+        height: 200px;
+        margin-top: 100px;
+    }
+
+
+    h3{
+        font-size: 13px;
+    }
+
+    li{
+        font-size: 12px;
+    }
+
+
+    /* ------------------------------------download .brochure ------------------------ */
+    .brochure{
+        margin: 15px;
+    }
+
+    .brochure-download{
+        font-size: 12px;
+    }
+    .brochure h1{
+        font-size: 16px;
+    }
+    
+
+    /* -----------------------------------Centres div -------------------------------- */
+    .centres{
+        padding: 5px;
+        min-height: 50vh;
+    }
+
+    .centres-wrapper{
+        width: 90px;
+        height: 90px;
+        padding: 5px;
+    }
+    .centres-wrapper p{ 
+        font-size: 10px;
+    }
+
+    #show-container {
+        margin: 15px auto;
+        margin-top: 10px;
+    }
+
+    #show-container img{
+        height: 150px;
+    }
+
+    #show-container .cont-div{
+        margin-top: 50px;
+        margin-left: 150px;
+        padding: 5px;
+        height: 170px;
+    }
+
+    .cont-div h4{
+        font-size: 14px;
+    }
+    .cont-div h5{
+        font-size: 12px; 
+    }
+    .cont-div p{
+        font-size: 11px; 
+    }
+
+    .progrm .heading{
+        margin-top: 200px;
+    }
+    
+    /* ---------------------------------------------company logo slider -------------------------- */
+
+    .cards {
+        height: 60px;
+        width: 80px;
+    }
+
+    .cards img{
+        height: 60px;
+        width: 80px;
+        margin: auto;
+    }
+
+    .progrm .heading {
+        margin-top: 20px;
+    }
+
+     /* -------------------------------features of company ----------------------------- */
+    .features{
+        height: 70px;
+        width: 100px;
+        padding: 0px;
+    }
+    .flip-div{
+        padding: 20px; 
+        margin-top: 50px;
+    }
+
+    .flip-div {
+        margin-top: 10px;
+    }
+
+    .features img{
+        height: 0px;
+    }
+    .features h4{
+        font-size: 12px;
+    }
+    .features p{
+        font-size: 10px;
+    }
+
+    .tabflip .content p {
+        font-size: 12px;
+    }
+
+    .footer h3 {
+        font-size: 14px;
+        font-weight: 300;
+    }
+    .footer p{
+        font-size: 12px;
+    }
+}
+
+
+
